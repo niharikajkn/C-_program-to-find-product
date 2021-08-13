@@ -1,0 +1,15 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    float x,y,product;
+    cout <<"Enter a number : "<<endl;
+    cin  >> x;
+    cout <<"Enter another number : "<<endl;
+    cin  >> y;
+    product = x*y;
+    cout <<"The product of the two numbers is : "<<product<<endl;
+    return 0;
+}
